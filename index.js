@@ -43,6 +43,8 @@ app
       next_offset: '',
       results: []
     });
+
+    await next();
   })
   .listen(process.env.PORT, () => {
     console.log(`Telegram app listening on port ${process.env.PORT}!`);
