@@ -1,0 +1,26 @@
+{
+  "name": "markdown-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boarder-portal/markdown-telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boarder-portal/markdown-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/boarder-portal/markdown-telegram-bot#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0"
+  }
+}
